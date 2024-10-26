@@ -3,6 +3,9 @@
 # get parent directory of script
 parent_dir=$(cd "$(dirname "$0")" && pwd)
 
+# make runChangeQuote.sh executable
+chmod +x $parent_dir/runChangeQuote.sh
+
 # Define the cron job with PATH set separately.
 cron_job="PATH=/usr/local/bin:/usr/bin:/bin\n0 9 * * * $parent_dir/runChangeQuote.sh"
 
