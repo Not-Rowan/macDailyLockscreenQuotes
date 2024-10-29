@@ -1,10 +1,17 @@
 # macDailyLockscreenQuotes
-This is a small python program I made in combination with crontab and a quotes dataset which sets the Lock Screen message on macOS to a random quote from the database every day at 9:00am.
+This is a small python program I made using a quotes dataset which sets the Lock Screen message on macOS to a random quote from the database every day at 9:00am.
 
-To get it working on your machine, install the "quoteGenerator" folder and run the following commands inside the quoteGenerator folder from the terminal:
+To set up this script on your machine, run the following commands in the terminal while you are inside the lockscreenQuote folder:
+
 ```
-chmod +x ./changeQuoteSetup.sh
-./changeQuoteSetup.sh
+chmod +x ./lockscreenQuoteSetup.sh
+sudo ./lockscreenQuoteSetup.sh
 ```
 
-If you encounter any errors in the setup process, feel free to contact me!
+To remove the script from your machine, run the following script:
+
+```
+sudo ./lockscreenDelete.sh
+```
+
+Thank you for downloading! If you encounter any errors with the program or are having issues with downloading, feel free to contact me at rowanrothe@icloud.com.
