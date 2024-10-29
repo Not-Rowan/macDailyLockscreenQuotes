@@ -1,0 +1,14 @@
+To set up this script on your machine, run the following commands in the terminal while you are inside the lockscreenQuote folder:
+
+```
+chmod +x ./lockscreenQuoteSetup.sh
+sudo ./lockscreenQuoteSetup.sh
+```
+
+To remove the script from your machine, run the following script:
+
+```
+sudo ./lockscreenDelete.sh
+```
+
+Thank you for downloading! If you encounter any errors with the program, feel free to contact me at rowanrothe@icloud.com.
